@@ -46,27 +46,27 @@ class DetailsScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       ChapterCard(
-                        name: "Money",
+                        name: "Dinheiro",
                         chapterNumber: 1,
-                        tag: "Life is about change",
+                        tag: "Vida é sobre mudança",
                         press: (){},
                       ),
                       ChapterCard(
-                        name: "Power",
+                        name: "Poder",
                         chapterNumber: 2,
-                        tag: "Everything loves power",
+                        tag: "Todo mundo ama poder",
                         press: (){},
                       ),
                       ChapterCard(
-                        name: "Influence",
+                        name: "Influência",
                         chapterNumber: 3,
-                        tag: "Influence easily like never before",
+                        tag: "Influencie como nunca antes",
                         press: (){},
                       ),
                       ChapterCard(
-                        name: "Win",
+                        name: "Vencer",
                         chapterNumber: 4,
-                        tag: "Winning is that matters",
+                        tag: "Vencendo é o que importa",
                         press: (){},
                       ),
                       SizedBox(height: 10)
@@ -82,13 +82,13 @@ class DetailsScreen extends StatelessWidget {
                 children: [
                   RichText(
                     text: TextSpan(
-                      style: Theme.of(context).textTheme.headline4,
+                      style: Theme.of(context).textTheme.headline5,
                       children: [
                         TextSpan(
-                          text: "You might also ",
+                          text: "Você também pode ",
                         ),
                         TextSpan(
-                          text: "like...",
+                          text: "gostar...",
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                       ],
@@ -121,7 +121,7 @@ class DetailsScreen extends StatelessWidget {
                                   style: TextStyle(color: kBlackColor),
                                   children: [
                                     TextSpan(
-                                      text: "How To Win \nFriends & Influence \n",
+                                      text: "Como Ganhar \nAmigos & Influência \n",
                                       style: TextStyle(
                                         fontSize: 20
                                       ),
@@ -141,7 +141,7 @@ class DetailsScreen extends StatelessWidget {
                                   SizedBox(width: 20),
                                   Expanded(
                                     child: RoudendButton(
-                                      text: "Read",
+                                      text: "Ler",
                                       verticalPadding: 10,
                                     ),
                                   )
@@ -214,7 +214,7 @@ class ChapterCard extends StatelessWidget {
             text: TextSpan(
               children: [
                 TextSpan(
-                  text: "Chapter $chapterNumber : $name \n",
+                  text: "Capítulo $chapterNumber : $name \n",
                   style: TextStyle(
                     fontSize: 16,
                     color: kBlackColor,
@@ -256,11 +256,11 @@ class BookInfo extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                "Crushing &",
+                "Esmagamento &",
                 style: Theme.of(context).textTheme.headline5,
               ),
               Text(
-                "Influence",
+                "Influência",
                 style: Theme.of(context)
                         .textTheme
                         .headline5
@@ -285,7 +285,7 @@ class BookInfo extends StatelessWidget {
                         ),
                         SizedBox(height: 5),
                         RoudendButton(
-                          text: "Read",
+                          text: "Ler",
                           verticalPadding: 10,
                         ),
                       ],

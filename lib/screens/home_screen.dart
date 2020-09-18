@@ -33,11 +33,11 @@ class HomeScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 24),
                     child: RichText(
                       text: TextSpan(
-                        style: Theme.of(context).textTheme.headline3,
+                        style: Theme.of(context).textTheme.headline4,
                         children: [
-                          TextSpan(text: "What are you \nreading "),
+                          TextSpan(text: "O que você está \nlendo "),
                           TextSpan(
-                            text: "today?",
+                            text: "hoje?",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                             ),
@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                       children: [
                         ReadingListCard(
                           image: "assets/images/book-1.png",
-                          title: "Crushing & Influence",
+                          title: "Esmagamento & Influência",
                           auth: "Gary Venchuk",
                           rating: 4.9,
                           pressDetails: (){
@@ -69,7 +69,7 @@ class HomeScreen extends StatelessWidget {
                         ),
                         ReadingListCard(
                           image: "assets/images/book-2.png",
-                          title: "Top Ten Business Hacks",
+                          title: "Top Dez Negócios Hacks",
                           auth: "Herman Joel",
                           rating: 4.8,
                         ),
@@ -86,9 +86,9 @@ class HomeScreen extends StatelessWidget {
                           text: TextSpan(
                             style: Theme.of(context).textTheme.headline4,
                             children: [
-                              TextSpan(text: "Best of the "),
+                              TextSpan(text: "O melhor do "),
                               TextSpan(
-                                text: "day",
+                                text: "dia",
                                 style: TextStyle(fontWeight: FontWeight.bold)
                               ),
                             ],
@@ -101,7 +101,7 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               TextSpan(text: "Continue "),
                               TextSpan(
-                                text: "reading...",
+                                text: "lendo...",
                                 style: TextStyle(fontWeight: FontWeight.bold)
                               ),
                             ],
@@ -138,7 +138,7 @@ class HomeScreen extends StatelessWidget {
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                "Crushing & Influence",
+                                                "Esmagamento & Influência",
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold
                                                 ),
@@ -152,7 +152,7 @@ class HomeScreen extends StatelessWidget {
                                               Align(
                                                 alignment: Alignment.bottomRight,
                                                 child: Text(
-                                                  "Chapter 7 of 10",
+                                                  "Capítulo 7 of 10",
                                                   style: TextStyle(
                                                     fontSize: 10,
                                                     color: kLightBlackColor
@@ -219,7 +219,7 @@ class HomeScreen extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      "New York Time Best For 11th March 2020",
+                                      "O melhor da New York Times Por 11 de Março 2020",
                                       style: TextStyle(
                                         fontSize: 9,
                                         color: kLightBlackColor
@@ -227,7 +227,7 @@ class HomeScreen extends StatelessWidget {
                                     ),
                                     SizedBox(height: 5),
                                     Text(
-                                      "How To Win \nFriends & Influence",
+                                      "Como ganhar \nAmigos & Influência",
                                       style: Theme.of(context).textTheme.headline6,
                                     ),
                                     Text(
@@ -271,7 +271,7 @@ class HomeScreen extends StatelessWidget {
                                 height: 40,
                                 width: size.width * .3,
                                 child: TwoSizeRoundedButton(
-                                  text: "Read",
+                                  text: "Ler",
                                   radious: 24,
                                   press: (){},
                                 ),
