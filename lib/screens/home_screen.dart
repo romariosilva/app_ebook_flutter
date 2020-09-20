@@ -200,7 +200,7 @@ class HomeScreen extends StatelessWidget {
     return Container(
                         margin: EdgeInsets.symmetric(vertical: 20),
                         width: double.infinity,
-                        height: 205,
+                        height: 215,
                         child: Stack(
                           children: [
                             Positioned(
@@ -209,7 +209,7 @@ class HomeScreen extends StatelessWidget {
                               right: 0,
                               child: Container(
                                 padding: EdgeInsets.only(left: 24, top: 24, right: size.width * .37),
-                                height: 185,
+                                height: 200,
                                 width: double.infinity,
                                 decoration: BoxDecoration(
                                   color: Color(0xFFEAEAEA).withOpacity(.45),

@@ -18,7 +18,7 @@ class DetailsScreen extends StatelessWidget {
               alignment: Alignment.topCenter,
               children: [
                 Container(
-                  height: size.height * .4,
+                  height: size.height * .5,
                   width: double.infinity,
                   decoration: BoxDecoration(
                     image: DecorationImage(
@@ -41,7 +41,7 @@ class DetailsScreen extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.only(top: size.height * .4 - 10),
+                  padding: EdgeInsets.only(top: size.height * .5 - 20),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -98,7 +98,7 @@ class DetailsScreen extends StatelessWidget {
                   Stack(
                     children: [
                       Container(
-                        height: 180,
+                        height: 200,
                         width: double.infinity,
                       ),
                       Positioned(
@@ -107,7 +107,7 @@ class DetailsScreen extends StatelessWidget {
                         right: 0,
                         child: Container(
                           padding: EdgeInsets.only(left: 24, top: 24, right: 150),
-                          height: 160,
+                          height: 180,
                           width: double.infinity,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(29),
